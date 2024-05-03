@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+       <!--fonts-->
+       <link rel="preconnect" href="https://fonts.googleapis.com">
+       <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+       <link
+           href="https://fonts.googleapis.com/css2?family=Inter&family=Lexend:wght@100..900&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap"
+           rel="stylesheet">
+   
+       <link rel="preconnect" href="https://fonts.googleapis.com">
+       <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+       <link
+           href="https://fonts.googleapis.com/css2?family=Heebo:wght@100..900&family=Inter&family=Lexend:wght@100..900&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap"
+           rel="stylesheet">
+   
+       <link rel="preconnect" href="https://fonts.googleapis.com">
+       <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+       <link
+           href="https://fonts.googleapis.com/css2?family=Heebo:wght@100..900&family=Inter&family=Lexend:wght@100..900&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Pacifico&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap"
+           rel="stylesheet">
+       <!--animation-->
+       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+       <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/11.0.5/swiper-bundle.min.css"
+           integrity="sha512-rd0qOHVMOcez6pLWPVFIv7EfSdGKLt+eafXh4RO/12Fgr41hDQxfGvoi1Vy55QIVcQEujUE1LQrATCLl2Fs+ag=="
+           crossorigin="anonymous" referrerpolicy="no-referrer" />
+     <!--basic links-->
+     <link rel="stylesheet" href="../styles/bootstrap.min.css">
+     <link rel="stylesheet" href="../styles/all.min.css">
+     <link rel="stylesheet" href="../styles/booking.css">
+</head>
+<body>
+    <section class="hero">
+        <div class="overlay"></div>
+        <div class="navBar">
+            <div class="logo">
+                <h1><i class="fa fa-utensils me-3"></i>Restoran</h1>
+            </div>
+            <ul class="nav-list">
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="about.html">ABOUT</a></li>
+                <li><a href="service.html">SERVICE</a></li>
+                <li><a href="menu.html">MENU</a></li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button"
+                        aria-expanded="false">PAGES</a>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="booking.html">Booking</a></li>
+                        <li><a class="dropdown-item" href="our_team.html">Our Team</a></li>
+                        <li><a class="dropdown-item" href="testimonial.html">Testimonial</a></li>
+                    </ul>
+                </li>
+                <li><a href="contact.html">CONTACT</a></li>
+                <li><a href="" class="btn-1">BOOK A TABLE</a></li>
+            </ul>
+            <nav class="navbar navbar-dark">
+                <div class="container-fluid">
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                </div>
+            </nav>
+        </div>
+        <div class="hero-container">
+            <div class="overlay"></div>
+            <div class="collapse" id="navbarToggleExternalContent">
+                <div class=" p-4">
+                    <ul class="nav-list">
+                        <li><a href="./index.html">HOME</a></li>
+                        <li><a href="./about.html">ABOUT</a></li>
+                        <li><a href="./service.html">SERVICE</a></li>
+                        <li><a href="./menu.html">MENU</a></li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button"
+                                aria-expanded="false">PAGES</a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="./booking.html">Booking</a></li>
+                                <li><a class="dropdown-item" href="./our_team.html">Our Team</a></li>
+                                <li><a class="dropdown-item" href="./testimonial.html">Testimonial</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="contact.html">CONTACT</a></li>
+                        <li><a href="" class="btn-1">BOOK A TABLE</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="hero-content">
+                    <h1 class="animate__animated animate__fadeInDown">Booking</h1>
+                    <nav aria-label="breadcrumb" >
+                        <ol class="breadcrumb">
+                          <li class="breadcrumb-item"><a href="#">HOME</a></li>
+                          <li class="breadcrumb-item"><a href="#">PAGES</a></li>
+                          <li class="breadcrumb-item active" aria-current="page">BOOKING</li>
+                        </ol>
+                      </nav>
+            </div>
+        </div>
+    </section>
+    <section class="reservation-form " data-aos="fade-up" data-aos-anchor-placement="top-center" data-aos-duration="500" >
+        <div class="reservation-container">
+            <div class="reserve-video">
+                <button type="button" class="btn play-btn " data-aos="zoom-in" data-bs-toggle="modal"
+                    data-bs-target="#exampleModal">
+                    <i class="fa-solid fa-play"></i>
+                </button>
+                <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                    aria-hidden="true">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title" id="exampleModalLabel">YouTube Video</h5>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                    aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                                <iframe width="100%" height="100%"
+                                    src="https://www.youtube.com/embed/GlrxcuEDyF8?si=7Qte9z5TwHlJjAW-"
+                                    title="YouTube video player" frameborder="0"
+                                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                                    referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                                </iframe>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <div class="reserve-form">
+                <h5 class="secion-name">Reservation</h5>
+                <h1>Book A Table Online</h1>
+                <form>
+                    <input type="text" class="form-control" placeholder="Your Name" name="name">
+                    <input type="email" class="form-control" placeholder="Your Email" name="email">
+                    <input type="date" class="form-control" name="date">
+                    <select name="people" class="form-select">
+                        <option value="1">People 1</option>
+                        <option value="2">People 2</option>
+                        <option value="3">People 3</option>
+                    </select>
+                    <textarea name="texterea" class="form-control" placeholder="Special Request"></textarea>
+                    <button>BOOK NOW</button>
+                </form>
+            </div>
+        </div>
+    </section>
+    <section class="footer" data-aos="fade-zoom-in" data-aos-easing="ease-in-back" data-aos-delay="300" data-aos-offset="0">
+        <div class="main-container" >
+            <div class="f-top">
+                <div class="f-div company">
+                    <h4>Company</h4>
+                    <ul>
+                        <li><a href=""><i class="fa-solid fa-angle-right"></i> About Us</a></li>
+                        <li><a href=""><i class="fa-solid fa-angle-right"></i> Contact Us</a></li>
+                        <li><a href=""><i class="fa-solid fa-angle-right"></i> Reservation</a></li>
+                        <li><a href=""><i class="fa-solid fa-angle-right"></i> Privacy Policy</a></li>
+                        <li><a href=""><i class="fa-solid fa-angle-right"></i> Terms & Condition</a></li>
+                    </ul>
+                </div>
+                <div class="f-div contact">
+                    <h4>Contact</h4>
+                    <ul class="contact-list">
+                        <li><i class="fa-solid fa-location-dot"></i> 123 Street, New York, USA</li>
+                        <li><i class="fa-solid fa-phone"></i> +012 345 67890</li>
+                        <li><i class="fa-solid fa-envelope"></i> info@example.com</li>
+                    </ul>
+                    <ul class="contact-links">
+                        <li><i class="fa-brands fa-twitter"></i></li>
+                        <li><i class="fa-brands fa-facebook-f"></i></li>
+                        <li><i class="fa-brands fa-youtube"></i></li>
+                        <li><i class="fa-brands fa-linkedin-in"></i></li>
+                    </ul>
+                </div>
+                <div class="f-div opening">
+                    <h4>Opening</h4>
+                    <div>
+                        <h5>Monday - Saturday</h5>
+                        <p>09AM - 09PM</p>
+                        <h5>Sunday</h5>
+                        <p>10AM - 08PM</p>
+                    </div>
+                </div>
+                <div class="f-div news-letter">
+                    <h4>NewsLetter</h4>
+                    <div class="news-cont">
+                        <p>Dolor amet sit justo amet elitr clita ipsum elitr est.</p>
+                        <form>
+                            <div class="input-group mb-3">
+                                <input type="text" class="form-control" placeholder="Your email"
+                                    aria-label="Recipient's username" aria-describedby="basic-addon2">
+                                <span class="input-group-text" id="basic-addon2">SIGNUP</span>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+
+            <div class="f-bottom">
+                <div class="f-bottom-1">
+                    <p><i class="fa-regular fa-copyright"></i> <span>Your Site Name</span>, All Right Reserved. Designed
+                        By <span>HTML Codex</span></p>
+                    <p>Distributed By <span>ThemeWagon</span></p>
+                </div>
+                <div class="f-bottom-2">
+                    <ul>
+                        <li><a href=""></a>Home <span>|</span> </li>
+                        <li><a href=""></a>Cookies <span>|</span> </li>
+                        <li><a href=""></a>Help <span>|</span> </li>
+                        <li><a href=""></a>FQAs</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+    <div class="back-btn">
+        <a href="" class="btn"><i class="fa-solid fa-arrow-up"></i></a>
+    </div>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/11.0.5/swiper-bundle.min.js"
+        integrity="sha512-Ysw1DcK1P+uYLqprEAzNQJP+J4hTx4t/3X2nbVwszao8wD+9afLjBQYjz7Uk4ADP+Er++mJoScI42ueGtQOzEA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="../scripts/bootstrap.bundle.min.js"></script>
+    <script src="../scripts/booking.js"></script>
+</body>
+</html>
