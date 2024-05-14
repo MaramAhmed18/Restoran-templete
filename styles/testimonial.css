@@ -357,6 +357,7 @@ a {
 
     }
 }
+
 .testimonial {
     min-height: 86vh;
     margin-bottom: 3rem;
@@ -423,47 +424,49 @@ a {
         .swiper {
             height: fit-content;
             margin-top: 3rem;
-
-            .swiper-slide {
-                padding: 1.4rem 1.5rem .6rem;
-                border: 1px solid rgba(0, 0, 0, 0.2);
-                transition: .3s ease-in-out;
-
-                i {
-                    color: var(--main-yelow);
-                    font-size: 2.5rem;
-                }
-
-                p {
-                    margin-top: .7rem;
-                }
-
-                .card {
-                    border: none;
-                    background: transparent;
-
-                    p:not(.card-text) {
-                        text-align: center;
+            .swiper-wrapper{
+                margin-bottom: 2rem;
+                .swiper-slide {
+                    padding: 1.4rem 1.5rem .6rem;
+                    border: 1px solid rgba(0, 0, 0, 0.2);
+                    transition: .3s ease-in-out;
+        
+                    i {
+                        color: var(--main-yelow);
+                        font-size: 2.5rem;
                     }
-
-                    .col-2 {
-                        width: 3.5rem;
+        
+                    p {
+                        margin-top: .7rem;
                     }
-
-                    .card-body {
-                        padding: 0;
-                        margin-left: .5rem;
-                        align-items: center;
-
-                        .card-title,
-                        .card-text {
-                            padding: 0;
-                            margin: 0;
+        
+                    .card {
+                        border: none;
+                        background: transparent;
+        
+                        p:not(.card-text) {
+                            text-align: center;
                         }
-
-                        h5 {
-                            font-family: var(--h1-font);
-                            font-weight: 800;
+        
+                        .col-2 {
+                            width: 3.5rem;
+                        }
+        
+                        .card-body {
+                            padding: 0;
+                            margin-left: .5rem;
+                            align-items: center;
+        
+                            .card-title,
+                            .card-text {
+                                padding: 0;
+                                margin: 0;
+                            }
+        
+                            h5 {
+                                font-family: var(--h1-font);
+                                font-weight: 800;
+                            }
                         }
                     }
                 }

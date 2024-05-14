@@ -359,11 +359,11 @@ a {
 }
 .food-menu {
     padding-inline: 1rem;
-    height: 126vh;
+    min-height: 138vh;
+
     .main-container {
         .menu-header {
             text-align: center;
-
             .secion-name {
                 font-family: var(--h5-font);
                 position: relative;
@@ -439,20 +439,20 @@ a {
             }
         }
         .tab-content {
-            position: relative;
+            margin-top: 5rem;
             .menu-data {
                 display: flex;
                 flex-wrap: wrap;
                 gap: 1rem;
                 align-items: center;
-                position: absolute;
-                top: 3rem;
-                left: 0;
+                
                 .card {
                     width: calc(100% / 2 - 1rem);
                     padding: 0;
                     border: none;
-
+                    @media(max-width: 550px){
+                        width: 100%;
+                    }
                     img {
                         height: 100%;
                         border-radius: none;
